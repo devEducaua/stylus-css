@@ -1,0 +1,23 @@
+/* ==Better Brave Search==
+@name           search.brave.com
+@namespace      github.com/devEducaua/stylus-css
+@version        1.0.0
+@description    better brave search
+@author         Me
+==/Better Brave Search== */
+@-moz-document domain("search.brave.com") {
+    :root {
+        --color-primitive-neutral-10: #000000;
+        --color-primitive-neutral-22: #111111;
+        --color-primitive-neutral-15: #000000;
+        --color-primitive-neutral-12: #111111;
+    }
+    
+    img.svelte-1qo6czq {
+        display: none;
+    }
+    
+    div.download-cta.svelte-1avqjm8 {
+        display: none;
+    }
+}

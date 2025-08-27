@@ -1,0 +1,43 @@
+/* ==Better X==
+@name           x.com
+@namespace      github.com/devEducaua/stylus-css
+@version        1.0.0
+@description    better x.com
+@author         Me
+==/Better X== */
+@-moz-document domain("x.com") {
+    * {
+        border-radius: 6px !important;
+        clip-path: none !important
+    }
+    /* remove "subscribe to premium", "terms of service" */
+    .css-175oi2r.r-st84sj.r-j3xhw6.r-8oi148.r-cgjvx2.r-1xc7w19.r-1loqt21,
+    .css-175oi2r.r-sdzlij.r-1phboty.r-lrvibr.r-4iw3lz.r-1xk2f4g.r-109y4c4.r-1udh08x.r-wwvuq4.r-u8s1d.r-92ng3h.r-2yi16.r-1qi8awa.r-1loqt21.r-o7ynqc.r-6416eg.r-1ny4l3l,
+    .css-175oi2r.r-kemksi.r-1kqtdi0.r-1q9bdsx.r-rs99b7,
+    .css-175oi2r.r-18u37iz.r-1w6e6rj.r-3pj75a {
+        display: none;
+    }
+    
+    /* remove items for the sidebar */
+    a[data-testid="jobs-tab-item"],
+    a[data-testid="premium-signup-tab"],
+    a[data-testid="vo-signup-tab"],
+    a[data-testid="jobs-tab-item"] {
+        display: none;
+    }
+   
+    /* adjust the position of the sidebars */
+   .css-175oi2r.r-aqfbo4.r-1pi2tsx.r-1xcajam.r-ipm5af {
+        left: 10px;
+        top: 10px;
+    }
+    
+    .css-175oi2r.r-1hycxz.r-1xcajam {
+        right: 10px;
+        top: 10px;
+    }
+    
+    .r-1ye8kvj {
+        max-width: 700px;
+    }
+}

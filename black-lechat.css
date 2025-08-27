@@ -1,0 +1,34 @@
+/* ==Black LeChat==
+@name           chat.mistral.ai
+@namespace      github.com/devEducaua/stylus-css
+@version        1.0.0
+@description    black theme for lechat
+@author         Me
+==/Black LeChat== */
+@-moz-document domain("chat.mistral.ai") {
+    :root.dark {
+        --bg-subtle: #000000;
+        --bg-card: #000000;
+        --bg-sidebar: #000000;
+        --bg-sidebar-subtle: #000000;
+    }
+    .group/link {
+        display: none;
+    }
+    
+    * {
+        border-radius: 6px;
+    }
+
+    @layer utilities {
+        /*.bg-sidebar-subtle {
+            background-color: #000000;
+        }*/
+        
+        @media (width >= 40rem) {
+            .sm\:block {
+                display: none;
+            } 
+        }
+    }
+}

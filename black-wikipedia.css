@@ -1,0 +1,13 @@
+/* ==Black Wikipedia==
+@name           en.wikipedia.org
+@namespace      github.com/devEducaua/stylus-css
+@version        1.0.0
+@description    black theme for wikipedia
+@author         Me
+==/Black Wikipedia== */
+@-moz-document domain("en.wikipedia.org"), domain("wikipedia.org"), domain("pt.wikipedia.org") {
+    @media screen {
+    html.skin-theme-clientpref-night {
+        --background-color-base: #000000;
+    }}
+}
