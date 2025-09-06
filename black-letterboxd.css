@@ -1,0 +1,10 @@
+@-moz-document url-prefix("https://letterboxd.com") {
+    body {
+        background-color: #000;
+        background-image: none;
+    }
+
+    .site-body {
+        background: #000;
+    }
+}
